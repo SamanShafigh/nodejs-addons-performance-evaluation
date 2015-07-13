@@ -2,7 +2,7 @@
    "targets" : [
       {
          "target_name": "fibonacciCPP",
-         "sources": ["main.cpp"]
+         "sources": ["fibonacci.cpp"]
       }
    ]
 }
