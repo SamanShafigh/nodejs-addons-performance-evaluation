@@ -1,0 +1,1 @@
+cmd_Release/obj.target/fibonacciCPP.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=fibonacciCPP.node -o Release/obj.target/fibonacciCPP.node -Wl,--start-group Release/obj.target/fibonacciCPP/main.o -Wl,--end-group 
