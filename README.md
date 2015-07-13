@@ -1,6 +1,6 @@
 # NodeJS Addons Performance Evaluation:
 This is a simple NodeJS addons performance evaluation used as a self documentation. 
-But you are more than welcome if you want to use or branch this repository. 
+But you are more than welcome to use or branch this repository. 
 
 
 ## Intro
