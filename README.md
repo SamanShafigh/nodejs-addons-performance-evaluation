@@ -47,6 +47,6 @@ Fibonacci 44: 1134903170 timer: 2880ms
 ```
 
 ## More information
-1. [Node.js v0.12.7 Manual & Documentation] https://nodejs.org/api/addons.html
+1. [Node.js v0.12.7 Manual & Documentation] (https://nodejs.org/api/addons.html)
 2. [C++ and Node.js: An Unholy Combination….But Oh So Right] (http://www.benfarrell.com/2013/01/03/c-and-node-js-an-unholy-combination-but-oh-so-right)
 3. [Writing Node.js Addons] (http://code.tutsplus.com/tutorials/writing-nodejs-addons--cms-21771)
