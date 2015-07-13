@@ -9,23 +9,21 @@ The same method also is implemented as a Javascript function. This non optimized
 
 # How to use:
 First you need to install node-gyp
-npm install -g node-gyp
+npm install -g node-gyp]
 
 Then run this command to compile the main.cpp file
-node-gyp configure build
+[node-gyp configure build]
 
 For testing the javascrip implementation of fibonacci function run fibonacci-javascript.js
-node fibonacci-javascript.js
+[node fibonacci-javascript.js]
 
 The result would be something like:
-Fibonacci 44: 1134903170
-timer: 8869ms
+[Fibonacci 44: 1134903170 timer: 8869ms]
 
 
 For testing the C++ implementation of fibonacci function run fibonacci-javascript.js
-node fibonacci-cpp.js
+[node fibonacci-cpp.js]
 
 The result would be something like:
-Fibonacci 44: 1134903170
-timer: 2880ms
+[Fibonacci 44: 1134903170 timer: 2880ms]
 
