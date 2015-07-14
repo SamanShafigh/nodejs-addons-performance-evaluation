@@ -7,6 +7,31 @@ But you are more than welcome to use or branch this repository.
 I've used the Addons feature of Node JS to create a simple C++ function which implements a method to calculate the nth Fibonacci number.
 The same method also is implemented as a Javascript function. This non optimized method of calculating the nth Fibonacci is used to test a time consuming process and comparing the time required for an Addons function vs a Javascript function to do the same calculation.
 
+Javascript implementation of Fibonacci function
+```
+// Fibonacci funcion
+function fibonacci(n) {
+if (n < 2) {
+return 1;
+} else {
+return fibonacci(n - 2) + fibonacci(n - 1);
+}
+}
+// setup the timer
+console.time('timer');
+console.log('Fibonacci 44: ' + fibonacci(44));
+console.timeEnd('timer');
+```
+
+Addons implementation of Fibonacci function in C++
+```
+var fibonacci = require('./build/Release/fibonacciCPP');
+// setup the timer
+console.time('timer');
+console.log('Fibonacci 44: ' + fibonacci.calculate(44));
+console.timeEnd('timer');
+```
+
 
 ## Result
 The results on my PC:
@@ -39,7 +64,7 @@ Fibonacci 44: 1134903170 timer: 8869ms
 ```
 
 
-For testing the C++ implementation of fibonacci function run fibonacci-javascript.js
+For testing the C++ implementation of fibonacci function run fibonacci-cpp.js
 ```
 node fibonacci-cpp.js
 ```
