@@ -40,7 +40,6 @@ For example for 44th Fibonacci number I get the following results
 - 8869ms for the Javascript function
 - 2880ms for the C++ function
 
-Time consumed for calculating the 28th to 48th fibonacci number for an addons C++ function compared to a Javascript function
 ![Time consumed for calculating the 28th to 48th fibonacci number for an addons C++ function compared to a Javascript function](https://raw.githubusercontent.com/SamanShafigh/NodeJS-Addons-Performance-Evaluation/master/result/result.png "Time consumed for calculating the 28th to 48th fibonacci number for an addons C++ function compared to a Javascript function")
 
 My PC specifications:
