@@ -11,27 +11,28 @@ Javascript implementation of Fibonacci function
 ```
 // Fibonacci funcion
 function fibonacci(n) {
-if (n < 2) {
-return 1;
-} else {
-return fibonacci(n - 2) + fibonacci(n - 1);
+  if (n < 2) {
+    return 1;
+  } else {
+    return fibonacci(n - 2) + fibonacci(n - 1);
+  }
 }
-}
+
 // setup the timer
 console.time('timer');
 console.log('Fibonacci 44: ' + fibonacci(44));
 console.timeEnd('timer');
 ```
 
-Addons implementation of Fibonacci function in C++
+Use Addons Fibonacci function implemented in C++
 ```
 var fibonacci = require('./build/Release/fibonacciCPP');
+
 // setup the timer
 console.time('timer');
 console.log('Fibonacci 44: ' + fibonacci.calculate(44));
 console.timeEnd('timer');
 ```
-
 
 ## Result
 The results on my PC:
